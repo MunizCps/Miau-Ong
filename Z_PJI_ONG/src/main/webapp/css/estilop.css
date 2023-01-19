@@ -1,0 +1,72 @@
+@charset "UTF-8";
+*{
+	font-weight: bolder;
+}
+.principal{
+	display:flex;
+	line-height: 1.4em;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right:10px;
+
+}
+
+.titulo{
+	font-size: 30px;
+}
+.principal_Cadastro{
+	width: 800px;
+	
+	
+}
+.principal_Cadastro_Pessoal, .principal_Cadastro_Endereco{
+	margin-left: 15px;
+	margin-right:15px;
+	border-radius: 2%;
+}
+body{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 150vh;
+	
+	flex-direction: column;
+	gap: 32px;
+		
+}
+
+.input{
+	position: relative;
+	margin: 10px 0px;
+}
+
+.input input{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #987C53;
+	border-radius: 5px;
+	outline: none;
+	font-size: 1em;
+}
+
+.input label{
+	margin-bottom: 10px;
+	
+}
+
+.botao{
+	width: 90%;
+	padding: 16px 0px;
+	margin: 25px;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+	background: #987C53;
+	cursor: pointer;
+	
+	justify-content: center
+	
+}

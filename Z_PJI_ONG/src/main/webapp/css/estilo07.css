@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.principal{
+	display:flex;
+	line-height: 1.4em;
+	font-size: 25px;
+}
+.principal_Form_Pet{
+	width: 800px;
+	max-height: 100vh;
+}
+
+body{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	gap: 20px;
+		
+}
+
+.input{
+	position: relative;
+	
+	margin: 10px 0px;
+}
+
+.input input{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #987C53;
+	border-radius: 5px;
+	outline: none;
+	font-size: 1em;
+}
+.input select{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #987C53;
+	border-radius: 5px;
+	outline: none;
+	font-size: 1em;
+	
+}
+
+.input label{
+	margin-bottom: 10px;
+	
+}
+
+.botao{
+	width: 90%;
+	padding: 16px 0px;
+	margin: 25px;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+	background: #987C53;
+	cursor: pointer;
+	
+	justify-content: center
+}
