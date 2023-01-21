@@ -1,0 +1,43 @@
+
+.fotos{
+	width: 130px;
+	height: 130px;
+}
+li{
+	font-size: 18px;
+	margin-left: 400px;
+
+}
+
+.button{
+	color: white;
+	width: 55px;
+	height: 55px;
+}
+
+
+
+
+.div-img{
+	margin-left: 580px;
+}
+
+.p{
+	margin-left: 65px;
+}
+
+
+.modal .modal-header{
+	background-color: #8B0000;
+}
+
+.modal{
+	width: 1000px;
+	margin-left: 200px;
+	border-radius: 12px
+}
+
+.btn.btn-modal{
+	float: left;
+}
+
